@@ -1,7 +1,7 @@
 output "id" {
-    id = aws_ebs_volume.ebs.id
+    value = aws_ebs_volume.ebs.id
 }
 
 output "arn" {
-    id = aws_ebs_volume.ebs.arn
+    value = aws_ebs_volume.ebs.arn
 }
