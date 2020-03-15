@@ -29,11 +29,13 @@ variable "snapshot_id" {
 variable "volume_type" {
     description = "Volume type."
     type = string
+    default = null
 }
 
 variable "kms_key_id" {
     description = "KMS key ID to encrypt the volume with."
     type = string
+    default = null
 }
 
 variable "tags" {
